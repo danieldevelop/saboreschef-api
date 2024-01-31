@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Carnes"
+    },
+    {
+        "id": 2,
+        "name": "Pastas"
+    },
+    {
+        "id": 3,
+        "name": "Vegetariana"
+    },
+    {
+        "id": 4,
+        "name": "Postres"
+    },
+    {
+        "id": 5,
+        "name": "Comida rápida"
+    },
+    {
+        "id": 6,
+        "name": "Pescados y mariscos"
+    },
+    {
+        "id": 7,
+        "name": "Hamburguesas"
+    },
+    {
+        "id": 8,
+        "name": "Pizzas"
+    },
+    {
+        "id": 9,
+        "name": "Helados"
+    },
+    {
+        "id": 10,
+        "name": "Sándwiches"
+    }
+]

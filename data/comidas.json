@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Asado de tira",
+        "price": 15.99,
+        "description": "Deliciosas costillas de ternera asadas a la parrilla.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Churrasco",
+        "price": 18.99,
+        "description": "Tiernos cortes de carne asada a la parrilla estilo brasileño.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Lomo salatado",
+        "price": 12.99,
+        "description": "Delicioso plato peruano que combina lomo de res, cebolla, tomate y para fritas.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Parrillada",
+        "price": 22.99,
+        "description": "Una selección de sabrosas carner a la parrilla, incluyendo vacío, chorizo y morcilla.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Carne asada",
+        "price": 16.99,
+        "description": "Deliciosa carne de res asada a la parrilla con sabores mexicanos.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Bistec a lo pobre",
+        "price": 14.99,
+        "description": "Jugoso bistec acompañado de papas fritas, cebolla y huevo frito.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/6.webp"
+    }
+]
