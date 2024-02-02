@@ -1,3 +1,35 @@
 body {
     background: #F8F6F2 !important;
 }
+
+
+.card-food {
+    cursor: pointer;
+    transform: translateZ(0); 
+    transition: transform 0.25s ease-out;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.img-food {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.description-food {
+    font-size: 15px;
+    text-align: justify;
+    color: #4d4d4d;
+}
+
+.price-food {
+    font-size: 1.5rem;
+    color: #d22e08;
+}
+
+.detail-food {
+    letter-spacing: 1px;
+}
