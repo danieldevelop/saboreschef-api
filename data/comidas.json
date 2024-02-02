@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "name": "Lomo salatado",
+        "name": "Lomo saltiado",
         "price": 12.99,
         "description": "Delicioso plato peruano que combina lomo de res, cebolla, tomate y para fritas.",
         "categoriaId": 1,
@@ -64,5 +64,181 @@
         "rating": 0,
         "discount": 0,
         "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/6.webp"
+    },
+    {
+        "id": 7,
+        "name": "Ropa vieja",
+        "price": 13.99,
+        "description": "Palto cubano hecho con carne deshebrada de res en salsa de tomate y especias.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/7.webp"
+    },
+    {
+        "id": 8,
+        "name": "Minalesa de carne",
+        "price": 11.99,
+        "decription": "Finas rebanadas de carne empanizada y fritas.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/8.webp"
+    },
+    {
+        "id": 9,
+        "name": "Picancha",
+        "price": 19.99,
+        "description": "Corte de carne brasileño jugoso y sabroso, ideal para la parrilla.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,  
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/9.webp"
+    },
+    {
+        "id": 10,
+        "name": "Costillas de chancho",
+        "price": 10.99,
+        "description": "Costillas de cerdo, a la parrilla o con salsa BBQ.",
+        "categoriaId": 1,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207954/10.webp"
+    },
+    {
+        "id": 11,
+        "name": "Tallarines verdes",
+        "price": 9.99,
+        "description": "Pasta verde con salsa de espinacas y queso fresco.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/11.webp"
+    },
+    {
+        "id": 12,
+        "name": "Canelones",
+        "price": 12.99,
+        "description": "Pasta enrollada rellena de carne y ricota, gratinada con sala de tomate y queso.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/12.webp"
+    },
+    {
+        "id": 13,
+        "name": "Espagueti al pesto",
+        "price": 11.99,
+        "description": "Pasta italiana con salsa de pesto de albahaca, piñones y queso.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/13.webp"
+    },
+    {
+        "id": 14,
+        "name": "Fettuccine Alfredo",
+        "price": 13.99,
+        "description": "Pasta con salsa cremosa a base de mantequilla y queso parmesano.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/14.webp"
+    },
+    {
+        "id": 15,
+        "name": "Lasagna",
+        "price": 14.99,
+        "description": "Capas de pasta intercaladas con carne, queso y salsa de tomate, horneadas a la perfección.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/15.webp"
+    },
+    {
+        "id": 16,
+        "name": "Ñoquis",
+        "price": 10.99,
+        "description": "Pasta en forma de pequeños dumplings, servidos con diversas salsas.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/16.webp"
+    },
+    {
+        "id": 17,
+        "name": "Raviolis de ricota y espinacas",
+        "price": 12.99,
+        "description": "Raviolis rellenos de una deliciosa mezcla de ricota y espinacas.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/17.webp"
+    },
+    {
+        "id": 18,
+        "name": "Espagueti con camarones",
+        "price": 16.99,
+        "description": "Espagueti con camarones salteados en una salsa picante de tomate y ajo.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/18.webp"
+    },
+    {
+        "id": 19,
+        "name": "Tagliatelle con sala de hongos",
+        "price": 13.99,
+        "description": "Pasta larga con una rica salsa de champiñones y hongos.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/19.webp"
+    },
+    {
+        "id": 20,
+        "name": "Pasta alfredo con pollo",
+        "price": 14.99,
+        "description": "Pasta con salsa cremosa de queso y pollo tierno.",
+        "categoriaId": 2,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207955/20.webp"
+    },
+    {
+        "id": 21,
+        "name": "Arepas",
+        "price": 8.99,
+        "description": "Deliciosos panecillos de masa de maíz rellenos de diversos ingredientes vegetarianos.",
+        "categoriaId": 3,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207956/21.webp"
+    },
+    {
+        "id": 22,
+        "name": "Chiles en nogada vegetarianos",
+        "price": 12.99,
+        "description": "Chiles poblanos rellenos de una mezcla vegetariana y cubiertos con una salsa de nueces y granada.",
+        "categoriaId": 3,
+        "disabled": false,
+        "rating": 0,
+        "discount": 0,
+        "image": "https://res.cloudinary.com/dijvrtez9/image/upload/v1685207956/22.webp"
     }
 ]
