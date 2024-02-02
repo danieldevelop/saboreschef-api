@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Asado de tira",
-        "price": 15.99,
+        "price": 9900,
         "description": "Deliciosas costillas de ternera asadas a la parrilla.",
         "categoriaId": 1,
         "disabled": false,
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "Churrasco",
-        "price": 18.99,
+        "price": 8900,
         "description": "Tiernos cortes de carne asada a la parrilla estilo brasileño.",
         "categoriaId": 1,
         "disabled": false,
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "name": "Lomo saltiado",
-        "price": 12.99,
+        "price": 9500,
         "description": "Delicioso plato peruano que combina lomo de res, cebolla, tomate y para fritas.",
         "categoriaId": 1,
         "disabled": false,
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "name": "Parrillada",
-        "price": 22.99,
+        "price": 8900,
         "description": "Una selección de sabrosas carner a la parrilla, incluyendo vacío, chorizo y morcilla.",
         "categoriaId": 1,
         "disabled": false,
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "name": "Carne asada",
-        "price": 16.99,
+        "price": 9500,
         "description": "Deliciosa carne de res asada a la parrilla con sabores mexicanos.",
         "categoriaId": 1,
         "disabled": false,
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "name": "Bistec a lo pobre",
-        "price": 14.99,
+        "price": 8900,
         "description": "Jugoso bistec acompañado de papas fritas, cebolla y huevo frito.",
         "categoriaId": 1,
         "disabled": false,
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "name": "Ropa vieja",
-        "price": 13.99,
+        "price": 6500,
         "description": "Palto cubano hecho con carne deshebrada de res en salsa de tomate y especias.",
         "categoriaId": 1,
         "disabled": false,
@@ -79,8 +79,8 @@
     {
         "id": 8,
         "name": "Minalesa de carne",
-        "price": 11.99,
-        "decription": "Finas rebanadas de carne empanizada y fritas.",
+        "price": 5900,
+        "description": "Finas rebanadas de carne empanizada y fritas.",
         "categoriaId": 1,
         "disabled": false,
         "rating": 0,
@@ -90,7 +90,7 @@
     {
         "id": 9,
         "name": "Picancha",
-        "price": 19.99,
+        "price": 6900,
         "description": "Corte de carne brasileño jugoso y sabroso, ideal para la parrilla.",
         "categoriaId": 1,
         "disabled": false,
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "name": "Costillas de chancho",
-        "price": 10.99,
+        "price": 7200,
         "description": "Costillas de cerdo, a la parrilla o con salsa BBQ.",
         "categoriaId": 1,
         "disabled": false,
@@ -112,7 +112,7 @@
     {
         "id": 11,
         "name": "Tallarines verdes",
-        "price": 9.99,
+        "price": 6900,
         "description": "Pasta verde con salsa de espinacas y queso fresco.",
         "categoriaId": 2,
         "disabled": false,
@@ -123,7 +123,7 @@
     {
         "id": 12,
         "name": "Canelones",
-        "price": 12.99,
+        "price": 5200,
         "description": "Pasta enrollada rellena de carne y ricota, gratinada con sala de tomate y queso.",
         "categoriaId": 2,
         "disabled": false,
@@ -134,7 +134,7 @@
     {
         "id": 13,
         "name": "Espagueti al pesto",
-        "price": 11.99,
+        "price": 5500,
         "description": "Pasta italiana con salsa de pesto de albahaca, piñones y queso.",
         "categoriaId": 2,
         "disabled": false,
@@ -145,7 +145,7 @@
     {
         "id": 14,
         "name": "Fettuccine Alfredo",
-        "price": 13.99,
+        "price": 5200,
         "description": "Pasta con salsa cremosa a base de mantequilla y queso parmesano.",
         "categoriaId": 2,
         "disabled": false,
@@ -156,7 +156,7 @@
     {
         "id": 15,
         "name": "Lasagna",
-        "price": 14.99,
+        "price": 4700,
         "description": "Capas de pasta intercaladas con carne, queso y salsa de tomate, horneadas a la perfección.",
         "categoriaId": 2,
         "disabled": false,
@@ -167,7 +167,7 @@
     {
         "id": 16,
         "name": "Ñoquis",
-        "price": 10.99,
+        "price": 4500,
         "description": "Pasta en forma de pequeños dumplings, servidos con diversas salsas.",
         "categoriaId": 2,
         "disabled": false,
@@ -178,7 +178,7 @@
     {
         "id": 17,
         "name": "Raviolis de ricota y espinacas",
-        "price": 12.99,
+        "price": 6890,
         "description": "Raviolis rellenos de una deliciosa mezcla de ricota y espinacas.",
         "categoriaId": 2,
         "disabled": false,
@@ -189,7 +189,7 @@
     {
         "id": 18,
         "name": "Espagueti con camarones",
-        "price": 16.99,
+        "price": 3950,
         "description": "Espagueti con camarones salteados en una salsa picante de tomate y ajo.",
         "categoriaId": 2,
         "disabled": false,
@@ -200,7 +200,7 @@
     {
         "id": 19,
         "name": "Tagliatelle con sala de hongos",
-        "price": 13.99,
+        "price": 13990,
         "description": "Pasta larga con una rica salsa de champiñones y hongos.",
         "categoriaId": 2,
         "disabled": false,
@@ -211,7 +211,7 @@
     {
         "id": 20,
         "name": "Pasta alfredo con pollo",
-        "price": 14.99,
+        "price": 12990,
         "description": "Pasta con salsa cremosa de queso y pollo tierno.",
         "categoriaId": 2,
         "disabled": false,
@@ -222,7 +222,7 @@
     {
         "id": 21,
         "name": "Arepas",
-        "price": 8.99,
+        "price": 5990,
         "description": "Deliciosos panecillos de masa de maíz rellenos de diversos ingredientes vegetarianos.",
         "categoriaId": 3,
         "disabled": false,
@@ -233,7 +233,7 @@
     {
         "id": 22,
         "name": "Chiles en nogada vegetarianos",
-        "price": 12.99,
+        "price": 7990,
         "description": "Chiles poblanos rellenos de una mezcla vegetariana y cubiertos con una salsa de nueces y granada.",
         "categoriaId": 3,
         "disabled": false,
