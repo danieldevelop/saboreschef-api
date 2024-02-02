@@ -11,12 +11,19 @@ export const listarComidas = (search = '') => {
                 foods.forEach(({id, name, price, description, image}) => {
                     template += `
                         <div class="col">
-                            <div class="card shadow">
-                                <img src="${image}" class="card-img-top img-fluid" alt="${name}">
+                            <div class="card shadow card-food">
+                                <img src="${image}" class="card-img-top img-fluid img-food" alt="${name}">
                                 <div class="card-body">
-                                    <h5 class="card-title">${name}</h5>
-                                    <p class="card-text">${description}</p>
-                                    <p class="card-text">S/. ${price}</p>
+                                    <h5 class="card-title fw-medium">${name}</h5>
+                                    <p class="card-text description-food">${description}</p>
+                                    <p class="card-text price-food fw-bold">$${price}</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#?id=${id}" 
+                                        class="btn btn-success btn-sm float-end text-uppercase fw-medium" 
+                                        id="detail-food">
+                                        Ver detalle
+                                    </a>
                                 </div>
                             </div>
                         </div>
