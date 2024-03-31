@@ -1,0 +1,23 @@
+.nav-link {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: #9A0409 !important;
+    }
+
+}
+
+.boton-reserva {
+    color: #9A0409;
+    border: 2px solid #9A0409;
+    border-radius: 50px;
+    width: 10rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background-color: #4E0002;
+        color: #ffffff;
+    }
+}

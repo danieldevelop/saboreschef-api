@@ -1,11 +1,33 @@
 import { allFoods, foodByName, foodAdd } from './foodAjax.js';
 import { allCategories } from './categorieAjax.js';
-import { onlyText, onlyNumbers } from './utils.js';
+import { onlyText, onlyNumbers, alertMixin, yearActual } from './utils.js';
 
 $(document).ready(() => {
+    $("#year-actual").text(yearActual()); 
     allFoods();
     allCategories();
 
+    $("#reserva-add").submit((e) => {
+        e.preventDefault();
+
+        const persona = $("#personas").val();
+        const fecha = $("#fecha").val();
+        const horaario = $("#horario").val();
+
+        if (persona === "" || fecha === "" || horaario === "") {
+            alertMixin('error', 'Todos los campos son obligatorios!');
+            return;
+        }
+
+        localStorage.setItem("reserva", JSON.stringify({ persona, fecha, horaario }));
+        alertMixin('success', 'Reserva realizada con éxito!');
+    });
+    
+    /** ===========================================
+     * TODO: Bloque de código para buscar platos de comida por nombre, se puede ejecutar de forma 
+     * TODO: automatica o manual, es decir, al momento de escribir en el input o al momento de enviar
+     * TODO: el formulario.
+     */
     // $("#search-food").submit((e) => {
     //     e.preventDefault();
     //     let food = $("#food").val().trim();
@@ -16,11 +38,11 @@ $(document).ready(() => {
         let food = $("#food").val().trim();
         foodByName(food);
     });
+    /** Fin del bloque */
 
-    
-    /**
-     * Formulario para agregar platos de comida, donde se valida que solo se ingrese
-     * solo numero y cadena de acuerdo al campo seleccionado.
+    /** ===========================================
+     * TODO: Formulario para agregar platos de comida, donde se valida que solo se ingrese
+     * TODO: solo numero y cadena de acuerdo al campo seleccionado.
      */
     $("#inpCodigo").keypress(onlyNumbers);
     $("#inpNombre").keypress(onlyText);
