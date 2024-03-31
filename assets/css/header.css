@@ -1,0 +1,21 @@
+.food-header {
+    width: 25rem;
+}
+
+.lead {
+    font-size: 18px !important;
+}
+
+.boton-menu {
+    color: #ffffff;
+    background-color: #9A0409;
+    border-radius: 5px;
+    width: 8rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background-color: #4E0002;
+        color: #ffffff;
+    }
+}
