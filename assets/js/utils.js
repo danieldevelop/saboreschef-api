@@ -64,3 +64,6 @@ export const alertMixin = (icon, title) => {
 
     Toast.fire({ icon, title });
 };
+
+
+export const yearActual = () => new Date().getFullYear();
